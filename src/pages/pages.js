@@ -4,7 +4,7 @@ import Footer from "./modulos/footer"
 
 export async function getServerSideProps() {
     // Fetch data from external API
-    const res = await fetch('https://fw-certo-evelynzagolinos-projects.vercel.app/pages')
+    const res = await fetch('https://fw-certo-evelynzagolinos-projects.vercel.app/pesportes/products/1')
     const repo = await res.json()
     // Pass data to the page via props
     return { props: { repo } }
