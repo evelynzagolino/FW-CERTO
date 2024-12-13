@@ -1,4 +1,4 @@
 .footerGradiente {
-    background: rgb(98, 222, 59);
-    background: linear-gradient(90deg, rgba(98, 222, 59, 1) 0%, rgba(52, 135, 94, 1) 79%, rgba(63, 187, 223, 1) 100%);
+    background: rgb(21, 158, 250);
+    background: linear-gradient(90deg, rgb(198, 164, 243) 0%, rgb(87, 68, 197) 79%, rgba(63, 187, 223, 1) 100%);
 }
